@@ -28,8 +28,8 @@ const WEBHOOK_SECRET =
 const ESCALATION_HOURS = 2;   // через сколько часов просрочки — эскалация
 const SPAWN_HOUR = 8;         // во сколько (Астана) создаются повторяющиеся задачи
 const HTML = { parse_mode: "HTML" };
-const COMPANY_NAME = process.env.COMPANY_NAME || "Oilan Group";   // название организации в сообщениях
-const CEO_NAME = process.env.CEO_NAME || "Алишер";                 // как бот обращается к руководителю
+const COMPANY_NAME = process.env.COMPANY_NAME || "Smart Region";   // название организации в сообщениях
+const CEO_NAME = process.env.CEO_NAME || "Жандос";                 // как бот обращается к руководителю
 
 // ═════════════════════════════ Хелперы ═════════════════════════════
 // Всё время в БД хранится в UTC. Часовой пояс используется только при вводе и выводе.
